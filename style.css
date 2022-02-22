@@ -1,0 +1,57 @@
+.body{
+    display: flex;
+    flex-direction: column;
+}
+
+.website-info{
+    display: flex;
+    flex-direction: row;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+#info{
+    text-align: center;
+}
+
+.flowers{
+    max-width: 200px;
+}
+
+.random{
+    
+}
+
+.pics{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.text{
+    text-align: center;
+    
+}
+
+.flower-info{
+    max-width: 200px;
+}
+
+.itstime{
+    display: flex;
+    justify-content: space-between;
+    background-color: aquamarine;
+    width: 400px;
+}
+
+.bottom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
