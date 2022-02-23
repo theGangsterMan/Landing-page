@@ -160,4 +160,7 @@ footer{
     justify-content: left;
     max-width: 300px;
 }
+.right-time{
+    min-width: fit-content;
+}
 
