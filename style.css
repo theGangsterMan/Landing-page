@@ -1,19 +1,33 @@
-.body{
-    display: flex;
+body{
     flex-direction: column;
+    margin: auto;
+}
+
+h2{
+    font-size: 30px;
+    font-weight: 700;
 }
 
 .website-info{
     display: flex;
     flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    padding: 80px;
+    
 }
 
 ul{
     list-style: none;
+    display: flex;
+    gap: 16px;
 }
 
 a{
     text-decoration: none;
+    color: #E5E7EB;
+    font-size: 18px;
 }
 
 #info{
@@ -22,16 +36,24 @@ a{
 
 .flowers{
     max-width: 200px;
+    border: 5px solid rgb(102, 195, 226);
+    border-radius: 10px;
+
 }
 
 .random{
-    
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 70px 0px;
+    height: auto;
 }
 
 .pics{
     display: flex;
     justify-content: center;
     gap: 40px;
+    flex-wrap: wrap;
 }
 
 .text{
@@ -43,15 +65,99 @@ a{
     max-width: 200px;
 }
 
-.itstime{
-    display: flex;
-    justify-content: space-between;
-    background-color: aquamarine;
-    width: 400px;
-}
+
 
 .bottom{
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 40px;
+    
+    
 }
+
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+
+.big-flower{
+    max-width: 300px;
+}
+
+#logo{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+header,
+.website-info,
+footer{
+    background-color: #1F2937;
+}
+
+h1,
+#logo{
+    color: white;
+}
+
+#website-bio{
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+#this-site{
+    max-width: 400px;
+}
+
+.quote-box{
+    background-color: #E5E7EB;
+    padding: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.quote{
+    font-size: 24px;
+    font-style: italic;
+    margin: 0 100px;
+}
+
+footer{
+    color: #E5E7EB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+}
+
+.sign-up{
+    border: white solid 2px;
+    border-radius: 10px;
+    padding: 10px;
+    font-weight: 800;
+    color: white;
+}
+
+.itstime{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(98, 135, 255);
+    width: 500px;
+    color: white;
+    border: 10px solid rgb(98, 135, 255);
+    border-radius: 10px;
+    padding: 20px 100px;
+}
+
+.left-time{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    max-width: 300px;
+}
+
